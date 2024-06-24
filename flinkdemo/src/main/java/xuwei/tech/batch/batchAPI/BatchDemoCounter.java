@@ -16,7 +16,6 @@ public class BatchDemoCounter {
 		DataSource<String> fromElements = executionEnvironment.fromElements("a","c","v","t");
 		// aa
 		// bb
-		// cc
 
 		MapOperator<String, String> map = fromElements.map(new RichMapFunction<String, String>() {
 			IntCounter aa=new IntCounter();

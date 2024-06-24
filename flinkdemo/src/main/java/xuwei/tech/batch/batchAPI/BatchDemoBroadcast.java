@@ -18,7 +18,7 @@ public class BatchDemoBroadcast {
 	public static void main(String[] args) throws Exception {
 		// aa
 		// bb
-		// cc
+
 		// TODO Auto-generated method stub
 		ExecutionEnvironment executionEnvironment = ExecutionEnvironment.getExecutionEnvironment();
 	    ArrayList<Tuple2<String, Integer>> dataList=new ArrayList<Tuple2<String,Integer>>();
