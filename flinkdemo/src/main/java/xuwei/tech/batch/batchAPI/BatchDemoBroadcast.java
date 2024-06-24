@@ -16,6 +16,9 @@ import org.apache.flink.configuration.Configuration;
 public class BatchDemoBroadcast {
 
 	public static void main(String[] args) throws Exception {
+		// aa
+
+
 		// TODO Auto-generated method stub
 		ExecutionEnvironment executionEnvironment = ExecutionEnvironment.getExecutionEnvironment();
 	    ArrayList<Tuple2<String, Integer>> dataList=new ArrayList<Tuple2<String,Integer>>();

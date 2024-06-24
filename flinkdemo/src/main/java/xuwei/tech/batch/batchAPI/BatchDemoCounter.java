@@ -14,7 +14,7 @@ public class BatchDemoCounter {
 	public static void main(String[] args) throws Exception {
 		ExecutionEnvironment executionEnvironment = ExecutionEnvironment.getExecutionEnvironment();
 		DataSource<String> fromElements = executionEnvironment.fromElements("a","c","v","t");
-	
+		// aa
 		MapOperator<String, String> map = fromElements.map(new RichMapFunction<String, String>() {
 			IntCounter aa=new IntCounter();
 			@Override
