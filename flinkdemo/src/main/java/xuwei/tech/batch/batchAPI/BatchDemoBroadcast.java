@@ -17,7 +17,7 @@ public class BatchDemoBroadcast {
 
 	public static void main(String[] args) throws Exception {
 		// aa
-		// bb
+
 
 		// TODO Auto-generated method stub
 		ExecutionEnvironment executionEnvironment = ExecutionEnvironment.getExecutionEnvironment();
