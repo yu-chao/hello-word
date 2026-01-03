@@ -1,0 +1,45 @@
+LangChain Overview
+
+LangChain is a framework for developing applications powered by language models. It was created to help developers build LLM-powered applications more easily.
+
+Key Features
+
+LangChain provides several key features:
+- Chains: Combine multiple components together to create complex workflows
+- Agents: Allow LLMs to interact with external tools and APIs
+- Memory: Enable applications to maintain conversation history
+- Retrieval: Support for RAG (Retrieval Augmented Generation) patterns
+
+Components
+
+The main components of LangChain include:
+1. Models: Integration with various LLM providers like OpenAI, Anthropic, and others
+2. Prompts: Tools for managing and optimizing prompts
+3. Output Parsers: Extract structured information from LLM outputs
+4. Document Loaders: Load data from various sources
+5. Vector Stores: Store and retrieve embeddings efficiently
+
+RAG Pattern
+
+Retrieval Augmented Generation (RAG) is a technique that enhances LLM responses by retrieving relevant information from a knowledge base. The process involves:
+1. Converting documents into embeddings
+2. Storing embeddings in a vector database
+3. Retrieving relevant documents based on user queries
+4. Providing retrieved context to the LLM for generating answers
+
+Use Cases
+
+LangChain is commonly used for:
+- Chatbots and conversational AI
+- Question answering systems
+- Document analysis and summarization
+- Code generation and analysis
+- Data extraction and processing
+
+Version 1.0 Updates
+
+LangChain 1.0 introduced significant improvements:
+- LangChain Expression Language (LCEL) for building chains
+- Better modularity with separate packages
+- Improved type safety and async support
+- Enhanced streaming capabilities
